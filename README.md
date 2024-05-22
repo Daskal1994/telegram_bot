@@ -55,13 +55,3 @@ Make sure your .env file has the three KEYs obtained during this step. Save the 
 
 ### 5. Decide which engine suits you
 The script is intended to be used for natural and code responses, if either the message starts with `>>>` or contains `code` or `python` keywords. If you are willing to use other engine rather than the ones included, just change it by the one that suits you. Not sure on which engine suits you? Check the official website to see what each model offers [here](https://beta.openai.com/docs/models/overview).
-
-### 6. Run the script
-Now you can use the bot as long as the script is running. Just type Hello! and make sure it responds.
-
-## Contribution
-> Notice that this section is not precise, as I am not a senior developer and I neither have in depth knowledge on the Telegram API nor python packages that might be usefull to make the bot better, but I believe that some changes are needed to reach the full potential of this script.
-
-I encourage anyone with knowledge on the topic to help me in any way considered appropiate. If any bug, failure or error is detected, feel free to communicate or try to solve it. Here is a list of features I believe that should be worked on in order to improve the repository, but suggestions are as well accepted:
-- Make the script run forever
-- Enable through chat command to modify the engine used for the response
